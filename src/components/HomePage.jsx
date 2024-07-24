@@ -9,7 +9,8 @@ const HomePage = () => {
         // Aos.init({duration:2000})
     },[])
   return (
-    <div>
+    <>
+    <div className='main'>
     <div 
     data-aos="fade-right"
     data-aos-duration="1500"
@@ -27,6 +28,12 @@ const HomePage = () => {
     <div style={{backgroundColor:"aqua",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
     <div data-aos="zoom-in" style={{backgroundColor:"brown",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
     </div>
+    <div data-aos="fade-left"
+     data-aos-anchor="#example-anchor"
+     data-aos-offset="500"
+     data-aos-duration="500">
+</div>
+    </>
   )
 }
 

@@ -1,3 +1,8 @@
 body{
-    background-color: black;
+    background-color: rgb(245, 235, 235);
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+
 }
