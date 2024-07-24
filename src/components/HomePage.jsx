@@ -19,11 +19,11 @@ const HomePage = () => {
     <div
     data-aos="flip-left"
     style={{backgroundColor:"blue",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
-    <div style={{backgroundColor:"yellow",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
-    <div style={{backgroundColor:"pink",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
-    <div style={{backgroundColor:"orange",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
+    <div data-aos="zoom-in" style={{backgroundColor:"yellow",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
+    <div data-aos="fade-up" data-aos-duration="3000" style={{backgroundColor:"pink",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
+    <div  data-aos="zoom-in" style={{backgroundColor:"orange",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
     <div style={{backgroundColor:"aqua",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
-    <div style={{backgroundColor:"brown",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
+    <div data-aos="zoom-in" style={{backgroundColor:"brown",width:"300px",height:"200px",margin:"30px"}}>Animation On Scroll</div>
     </div>
   )
 }
